@@ -142,34 +142,3 @@ Important: if you previously installed a debug APK, Android may not update it wi
 TDrive depends on Telegram's API. Please use it for personal storage and avoid spam, bulk abuse, or anything that violates Telegram's rules.
 
 Very heavy uploads may be limited by Telegram, your internet connection, or your device.
-
-## For Maintainers
-
-This public repository only hosts release files:
-
-- `update.json`
-- Versioned APKs under `releases/`
-- This README
-
-The app source lives in the private `anandmoon/TDrive` repository.
-
-To publish a new public APK from the private repo:
-
-```bash
-git add .
-git commit -m "Describe the change"
-git push origin main
-
-git tag v1.0.4
-git push origin v1.0.4
-```
-
-The version tag is what publishes the public release. Pushing to `main` only updates private source code. Pushing a tag like `v1.0.4` starts GitHub Actions, builds a signed APK, and updates this public repository.
-
-Use a new version number every time:
-
-| Current public version | Next version |
-|---|---|
-| `v1.0.3` | `v1.0.4` |
-| `v1.0.4` | `v1.0.5` |
-| `v1.0.9` | `v1.0.10` |
