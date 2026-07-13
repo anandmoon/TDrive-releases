@@ -1,9 +1,9 @@
 {
-  "versionCode": 10007,
-  "versionName": "1.0.7",
-  "tag": "v1.0.7",
+  "versionCode": 10008,
+  "versionName": "1.0.8",
+  "tag": "v1.0.8",
   "apkName": "TDrive.apk",
-  "apkUrl": "https://raw.githubusercontent.com/anandmoon/TDrive-releases/main/releases/v1.0.7/TDrive.apk",
-  "sha256": "5b8546ffc6487fe97c6fcccbd07afabf8e625b712ce42350e106bb9279c041f6",
-  "releaseNotes": "TDrive Android update v1.0.7."
+  "apkUrl": "https://raw.githubusercontent.com/anandmoon/TDrive-releases/main/releases/v1.0.8/TDrive.apk",
+  "sha256": "db64de16959ea872abf53101c49ed6636280de65d4cfb8eaa06d70055e9905f4",
+  "releaseNotes": "TDrive Android update v1.0.8."
 }
